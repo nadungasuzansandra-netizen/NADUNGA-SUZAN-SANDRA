@@ -1,157 +1,149 @@
-
-<!DOCTYPE html>
-<html lang="English">
+  <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY profile </title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        MY PROFILE
-    </h1>
-    <p> My name is <b><i>Nadunga Suzan Sandra</i></b>. 
-         Iam 23 years old currently am a student at Code Queen. Am living in Kazo with my parents.</p>
-Code Queen is a government based organisation offering technology transformationto young ladies equiping them with basics on web development.<br>This program is free and it runs for three months, lessons are thrice a week each lesson lasting for three hours. They have well trained and equiped facilitators with a very organised lab. facilitators are very friendly and easily approachable.</p>
-<ol>
-    MY LIKES
-    <LI>Soccer</LI>
-    <li>Swimming</li>
-    <li>Eating</li>
-    <li>Trips</li>
 
-</ol>
-<ul>
-    MY DISLIKES
-    <li>Telling me lies</li>
-    <li>Backbiting me</li>
-    <li>Theft</li>
-</ul> <br>
-<img src="images/easi.jpg" height="100px" width="50px">
-<br>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand suzie" href="suzie">SUZIE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<a href="https://www.linkedin.com/login" target="_blank" >linkedin</a>
-<i class="fa-brands fa-linkedin"></i>
-<br>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-<a href="//www.instagram.com" target="_blank" >instagram</a>
-<i class="fa-brands fa-instagram"></i>
-<br>
-<a href=" https://www.tiktok.com/en/"target="-blank">tiktok</a>
-<i class="fa-brands fa-tiktok"></i><br>
+<!-- ================= HERO SECTION ================= -->
+<section id="home" class="bg-light text-center d-flex align-items-center" style="height: 100vh;">
+    <div class="container">
+        <h1 class="display-4 fw-bold"style="color: green;fontsize:18px">Hello, I'm Suzie</h1>
+        <p class="lead" style="color: rgb(255, 0, 149);">Aspiring Web Developer and Designer passionate about building and designing responsive websites using HTML, CSS & Bootstrap.</p>
+        <a href="#projects" class="btn btn-primary btn-lg mt-3-work">Pliz View My Work</a>
+    </div>
+</section>
 
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="images/suzie.jpeg" class="img-fluid rounded" width="400px" height="100px" Image>
+            </div>
+            <div class="col-md-6" text>
+                <h2 style="color: chocolate;background-color: aqua;">About Me</h2>
+                <p style="color: blueviolet;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    I am a motivated learner currently growing my skills in web development and designing
+                    I enjoy creating clean, responsive designs and continuously improving my 
+                    coding abilities through practice and projects.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-<a href="//www.facebook.com/"target="-blank">facebook</a>
-<i class="fa-brands fa-facebook"></i>
-<br>
-<a href="https://x.com" target="-blank">x</a>
-<i class="fa-solid fa-x"></i>
+<!-- ================= PROJECTS SECTION ================= -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">My Projects</h2>
+        <div class="row g-4">
 
-    <table border="7">
-        <h1>
-            CONTACT TABLE
-        </h1>
-<tr>
-<th>NAME</th>
-<th>PHONE</th>
-<th>EMAIL</th>
-<th>GENDER</th>
-<th>LOCATION</th>
-<tr>
-    <td>NADUNGA SUZAN SANDRA</td>
-    <td>0709951668</td>
-    <td>nadungasuzansandra@gmail.com</td>
-    <td>FEMALE</td>
-    <td>KAZO</td>
-</tr>
-<td>SEMPIJJA WILLY</td>
-<td>0787425962</td>
-<td>sempijjawilly27@gmail.com</td>
-<td>MALE</td>
-<td>KAZO</td>
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 SANDRA">
+                    <img src="images/" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project One</h5>
+                        <p class="card-text">A responsive website built using HTML and Bootstrap layout system.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Two</h5>
+                        <p class="card-text">A landing page demonstrating Bootstrap components and grid system.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Project 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Three</h5>
+                        <p class="card-text">A portfolio mockup showcasing responsive design principles.</p>
+                        <a href="#" class="btn btn-primary view ">View Project</a>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+</section>
 
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
-</tr>
-<tr>
-    <td>WANYANA PROSSY</td>
-    <td>0787742389</td>
-    <td>lizyprosy@gmail.com</td>
-    <td>FEMALE</td>
-    <td>KIRA</td>
-</tr>
-<tr>
-    <td>DOREEN VALLIAN</td>
-    <td>0704567802</td>
-    <td>dorrenvallian@gmail.com</td>
-    <td>FEMALE</td>
-    <td>LUZIRA</td>
-</tr>
-<tr>
-    <td>NASA JOSEPH</td>
-    <td>0789543219</td>
-    <td>nasajoseph@gmail.com</td>
-    <td>MALE</td>
-    <td>MUKONO</td>
-</tr>
-</tr>
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2026 SUZAN SANDRA NADUNGA. All Rights Reserved.</p>
+</footer>
 
-
-
-    </table>
-
-<form >
-    <h1> PATIENT PERSONAL DETAILS</h1>
-
-    
-    <label for="firstname"> FIRSTNAME</label>
-    <input type="text"placeholder="entername"><br><br>
-<label for="secondname"> SECONDNAME</label>
-<input type="text"placeholder="entername"><br><br>
-<label for ="thirdname">THIRDNAME</label>
-<input type="text"placeholder="entername"><br>
-<label for="age">AGE</label>
-<input type="text"placeholder="entername"><br><br>
-<label for="gender">FEMALE</label>
-<input type="radio"name="gender"value="Female">
-<label for="Gender">Male</label>
-<input for="radio"name="gender"value="Male"><br><br>
-<label for="Contact">CONTACT</label>
-<input for="text"placeholder="entername"><br><br>
-<label for="Date of visit">DATE OF VISIT</label>
-<input type="text"placeholder="entername"><br><br>
-<label  for="payments">payments</label>
-<select>
-<option value="Cash">CASH</option>
-<option value="Credit/Debit Card">CREDIT/DEBIT CARD</option>
-<option value="Mobile Money">MOBILE MONEY</option>
-<option value="Insurance">INSURANCE</option>
-
-
-
-
-    
-</select>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</form>
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
@@ -167,13 +159,6 @@ Code Queen is a government based organisation offering technology transformation
 
 
 
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

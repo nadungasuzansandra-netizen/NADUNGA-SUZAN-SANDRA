@@ -7,16 +7,27 @@ h1{
 } */
 
 
- *{
+ /* *{
     margin: 1px;;
     padding: 2px;;
 
- }
-.navbar{
+ } */
+
+  *{
+    margin: ;
+
+  }
+/* .navbar{
     display: flex;
     justify-content: space-between;
     image-rendering: auto;
-    
+    padding: 10px 16px;
+    margin-top: -4px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(55, 43, 226);
+
+     */
 }
   
 
@@ -35,11 +46,74 @@ div>img{
     width: 100px;
     height: 100px;
     margin: auto;
-    background-color: brown;
+    background-color:rgb(216, 112, 192);
 }
-*{
+/* *{
     background-color:chartreuse;
     font-size: 20px;
-    font-style:oblique;
+    font-style:oblique; */
   
+}
+/* *{
+    background-color: burlywood;
+} */
+.info h1{
+    font-size: 75px;
+    color:rgb(35, 142, 67) ;
+    text-align:center ;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align:center;
+}
+.info a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: rgb(36,32, 30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info a:hover{
+    background: rgb(59,174,209);
+}
+.image{
+    text-align: center;
+    display: flex;
+    
+
+}
+*{
+    background-color: darkorchid;
+}
+.hello{
+    display: flex;
+    justify-content : space-around;
+    image-rendering: auto;
+    padding: 10px 10px;
+    margin-top: -4px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(55, 43, 226);
+
+}
+.view{
+
+}
+.work{
+    background-color: rgb(105, 139, 36);
+    border: 2px dotted red;
+}
+.lead{
+    color: orangered;
+    padding: 10px;
+}
+.suzie{
+    color: blue;
+}
+text{
+    color: blueviolet;
 }
